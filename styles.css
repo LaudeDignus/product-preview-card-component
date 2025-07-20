@@ -37,7 +37,8 @@ main{
     align-items: center;
     background-color:var(--White);
     border-radius: 1.2rem;
-    max-width: 500px;
+    max-width: 33rem;
+    min-width: 16rem;
     width:90%;
 }
 
@@ -138,11 +139,14 @@ footer{
 @media (max-width: 35rem){
     body{
         font-size: .9rem;
+        justify-content: normal;
     }
     main{
         flex-direction: column;
+        margin: 1.2rem auto;
         height:auto;
     }
+
     .product-img{
         width: 100%;
         height: auto;
